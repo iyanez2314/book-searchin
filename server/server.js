@@ -33,7 +33,7 @@ const startServer = async () => {
 
 startServer();
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
